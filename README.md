@@ -35,7 +35,7 @@ Sistema completo de recepción y procesamiento de datos de telemetría desarroll
 
 ### Software Requerido
 - **Go**: 1.22 o superior
-- **MySQL**: 5.7 o superior (o MariaDB 10.2+)
+- **MySQL**: 5.7 o superior (o MariaDB 10.2+, PostgreSQL, SQL Server)
 - **Redis**: 6.0 o superior
 - **MQTT Broker** (opcional): Mosquitto 1.4+ (u otro broker compatible)
 
