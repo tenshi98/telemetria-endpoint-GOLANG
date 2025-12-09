@@ -9,12 +9,12 @@ import (
 
 // Config -> almacena toda la configuración de la aplicación
 type Config struct {
-	Server   ServerConfig
-	MySQL    MySQLConfig
-	Redis    RedisConfig
-	MQTT     MQTTConfig
+	Server    ServerConfig
+	MySQL     MySQLConfig
+	Redis     RedisConfig
+	MQTT      MQTTConfig
 	RateLimit RateLimitConfig
-	Logging  LoggingConfig
+	Logging   LoggingConfig
 }
 
 // Configuración de Base de Datos MySQL
@@ -31,14 +31,14 @@ type MySQLConfig struct {
 
 // Configuración de Redis
 type RedisConfig struct {
-	Host        string
-	Port        string
-	Password    string
-	DB          int
-	MaxRetries  int
-	PoolSize    int
+	Host         string
+	Port         string
+	Password     string
+	DB           int
+	MaxRetries   int
+	PoolSize     int
 	MinIdleConns int
-	CacheTTL    time.Duration
+	CacheTTL     time.Duration
 }
 
 // Configuración de MQTT
