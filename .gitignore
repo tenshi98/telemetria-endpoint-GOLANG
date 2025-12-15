@@ -20,7 +20,6 @@ telemetry-server
 *.out
 
 # Dependency directories
-vendor/
 
 # Go workspace file
 go.work
